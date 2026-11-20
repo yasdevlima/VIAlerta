@@ -66,12 +66,6 @@ Abaixo encontra-se a organização modular deste módulo de entrega:
 
 ---
 
-## 🔗 Links e Observações
-
-### 🌐 Links do Projeto
-
-* **[Repositório GitHub Privado]**(https://github.com/SEU_USUARIO/ViaAlerta-GS-2026) - Repositório privado compartilhado com `fiap-tutoria` *(substituir pelo link real após publicação)*.
-* **[Vídeo Demonstrativo no YouTube]**(https://www.youtube.com/watch?v=LINK_RESERVADO_EQUIPE) - *(Campo reservado para o vídeo demonstrativo gravado pela equipe)*.
 
 ### 💡 Decisões Técnicas
 
