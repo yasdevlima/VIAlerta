@@ -1,0 +1,36 @@
+{
+  "dataset_name": "Roboflow Universe - Pothole Detection Dataset",
+  "model_architecture": "YOLOv8 Small (Ultralytics)",
+  "origin_repository": "https://github.com/michelpf/dataset-pothole",
+  "weights_source": "https://huggingface.co/Samdutse/pothole-yolov8",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "classes": {
+    "0": "Pothole"
+  },
+  "dataset_split": {
+    "total_images": 665,
+    "train_pct": 70,
+    "val_pct": 20,
+    "test_pct": 10
+  },
+  "preprocessing": [
+    "EXIF Auto-Orientation",
+    "Resize to 640x640 with aspect ratio preservation (letterbox padding)",
+    "Pixel normalization [0, 1]"
+  ],
+  "validation_metrics": {
+    "mAP_50": 0.785,
+    "mAP_50_95": 0.512,
+    "precision": 0.812,
+    "recall": 0.741
+  },
+  "inference_latency": {
+    "cpu_average_ms": 3200,
+    "batch_size": 1
+  },
+  "limitations": [
+    "Variações extremas de iluminação noturna ou reflexos de chuva intensa podem gerar falsos negativos ou atenuar a confiança estatística",
+    "A área visual ocupada pelo buraco na imagem não reflete necessariamente seu volume cúbico ou profundidade física real em centímetros",
+    "O modelo serve como ferramenta de triagem e auxílio à gestão pública, não substituindo laudo pericial presencial de engenharia de tráfego"
+  ]
+}
